@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music with Thăn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,400&display=swap" rel="stylesheet"/>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+    nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="app.css" />
+</head>
+<body onkeydown="keyDown(event)">
+    <div class="music">
+        <div class="music-thumb">
+        <img alt="" id="img" />
+        </div>
+    <div class="name-inner">
+        <h3 class="music-name"></h3>
+    </div>
+    <input
+        type="range"
+        min="0"
+        value="0"
+        max="10000"
+        step="1"
+        name="range"
+        id="range"
+        class="range"
+      />
+<audio src="./music/tinylove.mp3" id="song">
+</audio>
+  <div class="timer">
+      <div class="duration">0:00</div>
+      <div class="remaining">0:00</div>
+      </div>
+      <div class="controls">
+        <ion-icon ion-icon name="shuffle-outline" class="random-Btn"></ion-icon>
+        <ion-icon name="play-back-outline" class="play-back"></ion-icon>
+        <div class="play">
+          <div class="player-inner">
+            <ion-icon name="play-outline"></ion-icon>
+          </div>
+        </div>
+      <div class="doc"></div>
+        <ion-icon name="play-forward-outline" class="play-forward"></ion-icon>
+        <ion-icon name="refresh-outline" class="reload-Btn"></ion-icon>
+      </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
