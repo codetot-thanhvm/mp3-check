@@ -19,9 +19,9 @@ let indexSong = 0;
 let random = false;
 let reload = false;
 let whitecolor = true;
-const musics = ["nghenoi.mp3","dechuyenminhconlangthang.mp3","tinylove.mp3","thoiquen.mp3","bleu.mp3", "biettimdau.mp3","troivedau.mp3","thethoi.mp3","vimotcaunoi.mp3","xichthemchut.mp3","contholacongo.mp3","ngaymailatuonglai.mp3","saigoncoem.mp3","em.mp3","luckyboy.mp3","ngonnen.mp3"];
-const img = ["nghenoi.jpg","langthang.png","tinylove.png", "thoiquen.png", "avatar.jpg", "biettimdau.png","troivedau.png","thethoi.png","vimotcaunoi.png","xichthemchut.png","contholacongo.png","ngaymailatuonglai.png","saigoncoem.png","em.png","luckyboy.png","ngonnen.png"];
-const content = ["Nghe nói","Để chuyện mình còn lang thang","Tiny Love", "Thói Quen", "Bleu", "Biết tìm đâu", "Trôi về đâu","Thế thôi","Vì một câu nói","Xích thêm chút","Còn thở còn gỡ","Ngày mai là tương lai","Sài gòn có em","Em","Lucky Boy","Ngọn Nến"];
+const musics = ["khihaitangoichuyentro.mp3","vuonmay.mp3","nghenoi.mp3","dechuyenminhconlangthang.mp3","tinylove.mp3","thoiquen.mp3","bleu.mp3", "biettimdau.mp3","troivedau.mp3","thethoi.mp3","vimotcaunoi.mp3","xichthemchut.mp3","contholacongo.mp3","ngaymailatuonglai.mp3","saigoncoem.mp3","em.mp3","luckyboy.mp3","ngonnen.mp3"];
+const img = ["khihaitangoitrochuyen.png","vuonmay.jpg","nghenoi.jpg","langthang.png","tinylove.png", "thoiquen.png", "avatar.jpg", "biettimdau.png","troivedau.png","thethoi.png","vimotcaunoi.png","xichthemchut.png","contholacongo.png","ngaymailatuonglai.png","saigoncoem.png","em.png","luckyboy.png","ngonnen.png"];
+const content = ["Khi hai ta ngồi chuyện trò","Vườn mây","Nghe nói","Để chuyện mình còn lang thang","Tiny Love", "Thói Quen", "Bleu", "Biết tìm đâu", "Trôi về đâu","Thế thôi","Vì một câu nói","Xích thêm chút","Còn thở còn gỡ","Ngày mai là tương lai","Sài gòn có em","Em","Lucky Boy","Ngọn Nến"];
 // Bắt sự kiện khi ấN vào nút chuyển bài
 nextBtn.addEventListener("click", function() {
     changeSong(1);
